@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="793e4b5a-e835-4961-8fd4-b9b921936df9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Y3mSiaDtwNQcYf6Slfx7jFizqO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="GameApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ProjectPsych" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dhruv.psych.game.GameApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="793e4b5a-e835-4961-8fd4-b9b921936df9" name="Default Changelist" comment="" />
+      <created>1582179655022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582179655022</updated>
+      <workItem from="1582179661603" duration="751000" />
+      <workItem from="1582180437384" duration="864000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="147" key="SettingsEditor" timestamp="1582181285045">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1582181285045" />
+    <state x="541" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1582180458879">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="541" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1582180458879" />
+  </component>
+</project>
