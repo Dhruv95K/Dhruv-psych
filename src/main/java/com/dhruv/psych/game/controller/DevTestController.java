@@ -1,9 +1,6 @@
-package com.dhruv.psych.game;
+package com.dhruv.psych.game.controller;
 
-import com.dhruv.psych.game.model.Game;
-import com.dhruv.psych.game.model.GameMode;
-import com.dhruv.psych.game.model.Player;
-import com.dhruv.psych.game.model.Question;
+import com.dhruv.psych.game.model.*;
 import com.dhruv.psych.game.repositories.GameRepository;
 import com.dhruv.psych.game.repositories.PlayerRepository;
 import com.dhruv.psych.game.repositories.QuestionRepository;
@@ -19,16 +16,13 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/dev-test")
-public class HelloWorldController {
+public class DevTestController {
     @Autowired
     private PlayerRepository playerRepository;
-
     @Autowired
     private QuestionRepository questionRepository;
-
     @Autowired
     private GameRepository gameRepository;
-
     @Autowired
     private UserRepository userRepository;
 
@@ -53,9 +47,19 @@ public class HelloWorldController {
         return playerRepository.findAll();
     }
 
-    @GetMapping("/game/{id}")
-    public Optional<Game> getGameById(@PathVariable(name = "id") Long id){
-        return gameRepository.findById(id);
+    @GetMapping("/player/{id}")
+    public Optional<Player> getPlayerById(@PathVariable(name = "id") Long id){
+        return playerRepository.findById(id);
+    }
+
+    @GetMapping("/users")
+    public List<User> getUsers(){
+        return userRepository.findAll();
+    }
+
+    @GetMapping("/user/{id}")
+    public Optional<User> getUserById(@PathVariable(name = "id") Long id){
+        return userRepository.findById(id);
     }
 
     @GetMapping("/games")
@@ -63,9 +67,9 @@ public class HelloWorldController {
         return gameRepository.findAll();
     }
 
-    @GetMapping("/player/{id}")
-    public Optional<Player> getPlayerById(@PathVariable(name = "id") Long id){
-        return playerRepository.findById(id);
+    @GetMapping("/game/{id}")
+    public Optional<Game> getGameById(@PathVariable(name = "id") Long id){
+        return gameRepository.findById(id);
     }
 
     @GetMapping("/populate")

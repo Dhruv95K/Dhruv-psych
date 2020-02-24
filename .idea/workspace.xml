@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="793e4b5a-e835-4961-8fd4-b9b921936df9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/repositories/GameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/auth/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/auth/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/controller/GamePlayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/exceptions/NoSuchUserException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPsych.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPsych.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/HelloWorldController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Auditable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Auditable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/EllenAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/EllenAnswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/PlayerAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/PlayerAnswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/Round.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dhruv/psych/game/HelloWorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhruv/psych/game/HelloWorldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/controller/DevTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhruv/psych/game/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhruv/psych/game/HelloWorldController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhruv/psych/game/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhruv/psych/game/model/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +74,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,6 +107,8 @@
       <recent name="com.dhruv.psych.game.model" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dhruv.psych.game.auth" />
+      <recent name="com.dhruv.psych.game.exceptions" />
       <recent name="com.dhruv.psych.game.repositories" />
       <recent name="com.dhruv.psych.game.model" />
     </key>
@@ -131,7 +137,7 @@
       <workItem from="1582283987482" duration="3121000" />
       <workItem from="1582477237585" duration="660000" />
       <workItem from="1582480757722" duration="17000" />
-      <workItem from="1582529163078" duration="7922000" />
+      <workItem from="1582529163078" duration="20835000" />
     </task>
     <servers />
   </component>
@@ -139,66 +145,67 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="188" key="#Assign_Data_Sources" timestamp="1582285295512">
+    <state x="413" y="188" key="#Assign_Data_Sources" timestamp="1582549676417">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="413" y="188" key="#Assign_Data_Sources/0.0.1680.1010@0.0.1680.1010" timestamp="1582285295512" />
+    <state x="413" y="188" key="#Assign_Data_Sources/0.0.1680.1010@0.0.1680.1010" timestamp="1582549676417" />
     <state x="432" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582183874389">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1582183874389" />
-    <state x="626" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1582284229975">
+    <state x="626" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1582549558220">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="626" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1582284229975" />
+    <state x="626" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1582549558220" />
     <state x="594" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582199711446">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="594" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1582199711446" />
-    <state x="466" y="130" key="FileChooserDialogImpl" timestamp="1582478969025">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="573" y="180" key="FileChooserDialogImpl" timestamp="1582542150129">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="466" y="130" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582478969025" />
-    <state width="1608" height="315" key="GridCell.Tab.0.bottom" timestamp="1582538823985">
+    <state x="573" y="180" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1582542150129" />
+    <state width="1608" height="315" key="GridCell.Tab.0.bottom" timestamp="1582550571917">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1318" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582215033287" />
-    <state width="1608" height="315" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1582538823985" />
-    <state width="1608" height="315" key="GridCell.Tab.0.center" timestamp="1582538823985">
+    <state width="1608" height="315" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1582550571917" />
+    <state width="1608" height="315" key="GridCell.Tab.0.center" timestamp="1582550571917">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1318" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582215033287" />
-    <state width="1608" height="315" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1582538823985" />
-    <state width="1608" height="315" key="GridCell.Tab.0.left" timestamp="1582538823985">
+    <state width="1608" height="315" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1582550571917" />
+    <state width="1608" height="315" key="GridCell.Tab.0.left" timestamp="1582550571917">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1318" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582215033286" />
-    <state width="1608" height="315" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1582538823985" />
-    <state width="1608" height="315" key="GridCell.Tab.0.right" timestamp="1582538823985">
+    <state width="1608" height="315" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1582550571917" />
+    <state width="1608" height="315" key="GridCell.Tab.0.right" timestamp="1582550571917">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1318" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582215033287" />
-    <state width="1608" height="315" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1582538823985" />
-    <state width="1608" height="315" key="GridCell.Tab.1.bottom" timestamp="1582538823985">
+    <state width="1608" height="315" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1582550571917" />
+    <state width="1608" height="315" key="GridCell.Tab.1.bottom" timestamp="1582550571917">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1318" height="178" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582215033287" />
-    <state width="1608" height="315" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1582538823985" />
-    <state width="1608" height="315" key="GridCell.Tab.1.center" timestamp="1582538823985">
+    <state width="1608" height="315" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1582550571917" />
+    <state width="1608" height="315" key="GridCell.Tab.1.center" timestamp="1582550571917">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1318" height="178" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582215033287" />
-    <state width="1608" height="315" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1582538823985" />
-    <state width="1608" height="315" key="GridCell.Tab.1.left" timestamp="1582538823985">
+    <state width="1608" height="315" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1582550571917" />
+    <state width="1608" height="315" key="GridCell.Tab.1.left" timestamp="1582550571917">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1318" height="178" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582215033287" />
-    <state width="1608" height="315" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1582538823985" />
-    <state width="1608" height="315" key="GridCell.Tab.1.right" timestamp="1582538823985">
+    <state width="1608" height="315" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1582550571917" />
+    <state width="1608" height="315" key="GridCell.Tab.1.right" timestamp="1582550571917">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1318" height="178" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582215033287" />
-    <state width="1608" height="315" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1582538823985" />
+    <state width="1608" height="315" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1582550571917" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1582182813009">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
