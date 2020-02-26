@@ -11,6 +11,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.concurrent.CompletionService;
 
 @Entity
 @Table(name = "players")
@@ -49,6 +50,10 @@ public class Player extends User {
         setAlias(builder.alias);
         setPsychFaceURL(builder.psychFaceURL);
         setPicURL(builder.picURL);
+    }
+
+    public Game getCurrentGame() {
+        //toDo
     }
 
     public static final class Builder {
