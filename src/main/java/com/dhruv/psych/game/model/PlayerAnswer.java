@@ -30,6 +30,9 @@ public class PlayerAnswer extends Auditable{
     @NotBlank
     private String answer;
 
+    public PlayerAnswer(){
+    }
+
     public PlayerAnswer(@NotNull Round round,@NotNull Player player,@NotBlank String answer) {
         this.round = round;
         this.player = player;

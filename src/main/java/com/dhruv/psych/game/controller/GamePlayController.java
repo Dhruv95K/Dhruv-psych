@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Optional;
+
 @RestController
 @RequestMapping("/play")
 public class GamePlayController {
@@ -25,8 +27,11 @@ public class GamePlayController {
 
     @GetMapping("submit-answer/{answer}")
     public void submitAnswer(Authentication authentication,@PathVariable(name = "answer") String answer) throws InvalidGameActionException {
-        Player player = playerRepository.findByEmail(authentication.getName()).orElseThrow();
-        player.getCurrentGame().submitAnswer(player,answer);
+        Optional<Player> player = playerRepository.findByEmail(authentication.getName());
+        Player p = player.get();
+        if(p == null)
+            throw new InvalidGameActionException("player is null");
+        p.getCurrentGame().submitAnswer(p,answer);
     }
 
 }

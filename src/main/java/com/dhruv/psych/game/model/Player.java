@@ -54,6 +54,7 @@ public class Player extends User {
 
     public Game getCurrentGame() {
         //toDo
+        return null;
     }
 
     public static final class Builder {
